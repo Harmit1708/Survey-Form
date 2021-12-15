@@ -1,0 +1,55 @@
+/* INPUT BOX */
+.fname{
+    display: flex;
+    float:left;
+}
+.lname{
+    display: inline-flex;
+    margin-left:50px;
+}
+input[type="email"]{
+    display: flex;
+    width:430px;
+}
+input[type="submit"]{
+    margin-top: 10px;
+}
+/* LABLES */
+.fname_label{
+    display: flex;
+    float:left;
+}
+.lname_label{
+    display: inline-flex;
+    margin-left:210px;
+}
+.star{
+    display: flex;
+    float:left;
+    font-size:25px;
+}
+.labels{
+    display:flex;
+    text-align:left;
+}
+.labels1{
+    display: flex;
+    text-align: left;
+}
+tr:nth-child(even){
+    background-color:whitesmoke;
+    border: hidden;
+}
+
+/* Table */
+table{
+    table-layout:fixed;
+    border:hidden;
+}
+
+/* TEXTAREA */
+textarea{
+    display: flex;
+    resize: none;
+    width:100%;
+}
