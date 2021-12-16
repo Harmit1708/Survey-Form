@@ -4,8 +4,7 @@
     float:left;
 }
 .lname{
-    display: inline-flex;
-    margin-left:50px;
+    margin-left: 50px;
 }
 input[type="email"]{
     display: flex;
@@ -52,4 +51,12 @@ textarea{
     display: flex;
     resize: none;
     width:100%;
+}
+
+
+/* MARK */
+
+mark{
+    background-color:transparent;
+    color: red;
 }
